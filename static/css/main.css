@@ -29,8 +29,8 @@ button:hover,
   white-space: normal;
 }
 .btn-primary {
-  background-color: #0bb8be;
-  border-color: #0bb8be;
+  background-color: #3c1d78;
+  border-color: #3c1d78;
 }
 .btn-primary:hover,
 .btn-primary:active {
@@ -38,11 +38,11 @@ button:hover,
   border-color: #12adb3;
 }
 .btn-outline-primary {
-  border-color: #0bb8be;
+  border-color: #3c1d78;
 }
 /*** Navbar ***/
 .navbar {
-  background-color: #3c1d78;
+  background-color: #0bb8be;
   background-image: none;
   background-size: auto;
   background-position: 0% 0%;
@@ -57,8 +57,9 @@ button:hover,
   background-repeat: repeat-x;
   margin-bottom: 0;
 }
+.navbar-dark .navbar-brand,
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: #3c1d78;
 }
 .navbar-dark .navbar-toggler {
     border-color: transparent;
@@ -173,28 +174,25 @@ button:hover,
 
 /*** Home page styles ***/
 .home-header-wrap {
-  background-color: #3c1d78;
+  background-color: #0bb8be;
   color: #fff;
   padding-bottom: 2rem;
 }
 .home-header-wrap h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
-  color: rgba(255,255,255,.9);
+  color: #3c1d78;
   margin-top: 3.5rem;
   margin-bottom: 1rem;
 }
 .home-header-wrap p {
-  color: rgba(255,255,255,.8);
+  color: #3c1d78;
 }
 .home-header-cta {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .home-header-cta .btn {
-  font-size: 1.5rem;
-  font-weight: 800;
-  text-transform: uppercase;
 }
 .home-header-wrap .irs-logo {
   margin-bottom: 2.5rem;
@@ -294,13 +292,13 @@ label[for=id_captcha] {
 .banner {
   width: 100%;
   background-image: none;
-  background-color: #3c1d78;
+  background-color: #0bb8be;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   position: relative;
   z-index: 1;
-  color: #fff;
+  color: #3c1d78;
 }
 
 /*** Payment ***/
